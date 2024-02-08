@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+.heading {
+    color: blue;
+}
+
+/* Dynamic CSS for element categories */
+.alkali-metals {
+    background-color: #ffcccc;
+}
+.alkaline-earth-metals {
+    background-color: #ff9999;
+}
+.transition-metals {
+    background-color: #ffff99;
+}
+.post-transition-metals {
+    background-color: #ffff66;
+}
+.metalloids {
+    background-color: #ffcc99;
+}
+.non-metals {
+    background-color: #ccffcc;
+}
+.halogens {
+    background-color: #ccffff;
+}
+.noble-gases {
+    background-color: #ccccff;
+}
+.lanthanides {
+    background-color: #ffccff;
+}
+.actinides {
+    background-color: #ff99ff;
+}
+
+/* Hover effect */
+td:hover {
+    background-color: lightgray;
+}
